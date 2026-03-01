@@ -1,18 +1,9 @@
 """
-Dynamic Pathfinding Agent  — v2 (fixed)
+Dynamic Pathfinding Agent
 ========================================
 Requirements: Python 3.8+  (tkinter ships with standard CPython)
-
 Run:  python pathfinding_agent.py
 
-Fixes vs v1:
-  - 8-directional movement  (makes Euclidean heuristic meaningful)
-  - Metrics reset on every new run
-  - Button highlight groups are fully isolated (no cross-contamination)
-  - Start/Goal placement always clears any wall underneath
-  - Start == Goal guard with clear error message
-  - Density slider shows live % via separate label (not slider label param)
-  - Path cost uses actual edge distances (1.0 cardinal, sqrt(2) diagonal)
 """
 
 import tkinter as tk
