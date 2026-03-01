@@ -1,1 +1,1 @@
-# Dynamic-pathfinding-agent-with-informed-search-algorithms
+# Dynamic pathfinding agent with informed search algorithms
